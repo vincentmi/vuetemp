@@ -124,7 +124,8 @@ export default {
     return createElement('el-menu', {
     	props : { 
     		router : true,
-    		defaultActive : this.defaultActiveMenu
+    		defaultActive : this.defaultActiveMenu,
+    		
     	}
 
     },subMenus)
@@ -134,9 +135,7 @@ export default {
 
 <style>
 .el-submenu {
-  background: #666;
-}
-.el-menu-item {
-  background-color:#AAA;
+	background: #AAA;
+	color:#fff;
 }
 </style>
